@@ -85,6 +85,8 @@ h3 {
 
 .about {
   background-color: #FFA500;
+  background-image: url("img/polygon-green.jpg");
+  background-size: cover;
   /*background-color: #b760e6;*/
   height: 100%;
   flex: 2;
@@ -92,12 +94,17 @@ h3 {
 
 .skills {
   background-color: #0080FF;
+  background-image: url("img/polygon-blue-2.jpg");
+  background-size: cover;
   height: 100%;
   flex: 3;
 }
 
 .projects {
-  background-color: #b760e6;
+  background-color: #FFA500;
+  background-image: url("img/polygon-white.jpg");
+  background-size: cover;
+  color: #000;
   height: 100%;
   flex: 2;
 }
@@ -110,14 +117,14 @@ h3 {
 }
 
 .other {
-  background-color: #ff5c5c;
+  background-color: #2967D9;
   /*background-color: #01DF3A;*/
   height: 100%;
   flex: 1;
 }
 
 .social {
-  background-color: #65CF9B;
+  background-color: #00B9BD;
   height: 100%;
   flex: 1;
 }
@@ -128,9 +135,10 @@ h3 {
 
 h3 {
   width: 50%;
-  margin 0 auto;
   text-align: center;
   margin: 0;
+  margin-bottom: 10px;
+  padding: 1px;
 }
 
 a {
@@ -138,7 +146,7 @@ a {
   /*margin: 5px;*/
   text-decoration: none;
   border-bottom: 1px solid #fff;
-  color: #fff;
+  color: inherit;
 }
 
 img {
